@@ -157,7 +157,15 @@ body {
   background-color: var(--very-dark-cyan);
 }
 
-/* mobile view */
+.attribution {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 40px;
+}
+.attribution a {
+  color: var(--dark-cyan);
+}
+
 /* Mobile view */
 @media screen and (max-width: 600px) {
   .outer-wrapper {
