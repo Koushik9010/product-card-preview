@@ -106,9 +106,9 @@ body {
 }
 
 .outer-wrapper .container .content .details {
-  padding: 20px 0;
+  padding: 25px 0;
   color: var(--dark-grayish-blue);
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: var(--font-size);
   font-family: var(--font1);
 }
@@ -134,18 +134,18 @@ body {
 }
 
 .outer-wrapper .container .content .button {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 0;
-  padding: 15px 0;
+  padding: 12px 0;
   width: 100%;
   display: inline-block;
   background-color: var(--dark-cyan);
   text-align: center;
   text-decoration: none;
   color: var(--white);
-  border-radius: 10px;
-  font-family: var(--font1);
-  font-size: 15px;
+  border-radius: 7px;
+  font-family: var(--font-size);
+  font-size: 14px;
   font-weight: 700;
 }
 
