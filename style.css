@@ -32,7 +32,7 @@ body {
   background-color: var(--cream);
   overflow-x: hidden;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
@@ -45,9 +45,9 @@ body {
 
 /* outer wrapper */
 .outer-wrapper {
-  width: 800px;
+  width: 570px;
   max-width: calc(100% - 20px);
-  height: 500px;
+  height: 460px;
   margin: auto;
 }
 
@@ -61,7 +61,7 @@ body {
 .outer-wrapper .container .images {
   width: 50%;
   height: 100%;
-  float: left; /* to bring the image on the left side of the card */
+  float: left;
   display: block;
   overflow: hidden;
 }
@@ -85,7 +85,7 @@ body {
   float: left;
   display: block;
   background-color: var(--white);
-  padding: 25px;
+  padding: 30px;
   overflow: hidden;
 }
 
@@ -102,7 +102,7 @@ body {
   color: var(--very-dark-blue);
   font-size: 35px;
   font-family: var(--font2);
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .outer-wrapper .container .content .details {
@@ -134,7 +134,7 @@ body {
 }
 
 .outer-wrapper .container .content .button {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 0;
   padding: 12px 0;
   width: 100%;
@@ -155,15 +155,6 @@ body {
 
 .outer-wrapper .container .content .button:hover {
   background-color: var(--very-dark-cyan);
-}
-
-.attribution {
-  font-size: 13px;
-  text-align: center;
-  margin-top: 40px;
-}
-.attribution a {
-  color: var(--dark-cyan);
 }
 
 /* Mobile view */
